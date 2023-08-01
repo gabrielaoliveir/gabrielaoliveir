@@ -3,7 +3,7 @@
 
 
 :root{
-    --cor-de-fundo: #a5ced3;
+    --cor-de-fundo: #ddf8fc;
     --branco: #FFFFFF;
     --laranja: #EB9800;
     --azul-degrade: linear-gradiente(97.54deg,#002f52 35.40% #3265689 165.37%);
@@ -15,9 +15,28 @@
 body{
     background-color: var(--cor-de-fundo);
 }
-.cabeçalho__menu-hamburger{
+
+.cabeçalho{background-color: #8ab6d8;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+
+lista menu{
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: auto;
+}
+
+.cabeçalho__menu-hamburguer{
     width: 24px;
     height: 24px;
-     background-image: url(Menu);
+     background-image: url(Menu\ 1.svg);
      background-repeat: no-repeat;
+     background-position: center;
+     display: inline-block;
 }
