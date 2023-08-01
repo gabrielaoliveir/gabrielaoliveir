@@ -1,0 +1,23 @@
+/* ponto de partida do HTML, espaço para declaração de variáveis globais e serem utilizada no trabalho inteiro*/
+
+
+
+:root{
+    --cor-de-fundo: #a5ced3;
+    --branco: #FFFFFF;
+    --laranja: #EB9800;
+    --azul-degrade: linear-gradiente(97.54deg,#002f52 35.40% #3265689 165.37%);
+    --preto: #000000;
+
+}
+
+/* forma o corpo da página principal */ 
+body{
+    background-color: var(--cor-de-fundo);
+}
+.cabeçalho__menu-hamburger{
+    width: 24px;
+    height: 24px;
+     background-image: url(Menu);
+     background-repeat: no-repeat;
+}
