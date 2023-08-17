@@ -1,6 +1,17 @@
-body{
-    background-color: rgb(red, green, blue);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 16;
-    font-weight: 400;
-}
+:root{
+    --cor-de-fundo:#EBECEE;
+    --branco:#FFFFFF;
+    --laranja:#EB9800;
+    --azul-degradee: linear-gradiente(97.54deg,#9dccf0 35.40% #51aff1 165.37%);
+    --preto:#000000;
+    
+    }
+    
+    /*forma o corpo da página principal*/
+    body{
+        background-color:rgb(135, 169, 189);
+         background-color: rgb(red, green, blue);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 16;
+        font-weight: 400;
+    }

@@ -1,47 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR"> <!--informa o dioma do site-->
 <head>
-    <meta charset="pt-BR">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desenvolvimento de Sistemas</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Detecta a largurado dispositivo que acessa a página-->
+    <title> 2° Desenvolvimento de Sistemas </title>
+    <link rel="stylesheet" href="estilo.css"> <!--link para o arquivo .css que resseta todo os estilos do html-->
+    <link rel="stylesheet" href="style.css"> <!--faz ligação entre o html e a folha deestilos a serem utilizados-->
 </head>
 <body>
       <header class="cabeçalho">
-        
-        
-         <ul class="lista_menu"> 
-          <li class="lista-menu_título">Disciplinas</li>
-
-            <li class="lista-menu_item">
-            <a href="#" class="lista-menu_link"> Programação Mobile</a>
-          </li>
-
-          <li class="lista-menu_item">
-            <a href="#" class="lista-menu_link"> Lógica Computacional</a>
-          </li>
-
-          <li class="lista-menu_item">
-            <a href="#" class="lista-menu_link"> Banco de Dados</a>
-          </li>
-
-          <li class="lista-menu_item">
-            <a href="#" class="lista-menu_link"> Ciência da Computação</a>
-          </li>
-
-          <li class="lista-menu_item">
-            <a href="#" class="lista-menu_link"> Análise de Projetos e Sistemas</a>
-          </li>
-
+        <!--cria uma caixa e nomeia como container-->
           <div class="container">
-            <ul class="opções">
-                <imput type="checkbox" id="opções-menu" class="opções_botão">
-                    <label for="opções-menu" class="opções" class="opções_rotulo">
-                        <li class="opções_item">Categorias</li>
+                <input type="checkbox" id="opções-menu" class="opções__botão">
+                    <label for="opções-menu" class="container__rotulo">
+                      <span class="cabeçalho__menu-hamburguer container__imagem"></span>
                     </label>
-                    
+                    <!--cria uma lista vinculada ao menu, por estar dentro da div-->
+                    <ul class="lista-menu"> <!--inicio da lista-->
+                      <li class="lista-menu__titulo"> Categorias </li>
                     <ul class="lista-menu"><!--inicio da lista-->
                         <li class="lista-menu_item">
                             <a href="#" class="lista-menu_link">Programação</a>
@@ -53,65 +29,55 @@
                                   <a href="#" class="lista-menu_link">Front-end</a>
                                   <li class="lista-menu_item">
                                     <a href="#" class="lista-menu_link">Infraestrutura</a>
-                            
                         </li>
-                        
+                        <!--fim da lista-->
                     </ul>
+
                     <img src="Camada_x0020_1.svg" alt="logo da alurabooks">
                     <h1 class="container_titulo container_titulo--negrito"> Col. Estadual Ayrton Senna da Silva </h1>
-                    
-                    <li class="opções_item"><a href="#" class="opções_link">Favoritos</a></li>
-                    <li class="opções_item"><a href="#" class="opções_link">meus cursos</a></li>
-                </imput>
-            </ul>
+                    <h1 class="container_titulo_adicional container_titulo--negrito"> Sua casa fora de casa </h1>
 
-          </div>
-            
+                  </div> <!--fim da classe container-->
+                <div class="container">
+                  <ul class="opções">
+                    <input type="checkbox" id="opções-menu" class="opções__botão">
+                    <label for="opções-menu" class="opções__rotulo">
+                      <li class="opções__item_"> Categorias </li>
+                    </label>
+
+                    <ul class="lista-menu">
+                      <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link"> Programação </a>
+                      </li>
+                      <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link"> Front end </a>
+                      </li>
+                      <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link"> Infraestrutura </a>
+                      </li>
+                      <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link"> Business </a>
+                      </li>
+                      <li class="lista-menu_item">
+                        <a href="#" class="lista-menu_link"> Design e Ux </a>
+                      </li>
+                    </ul>
+                    <li class="opções__item"> <a href="#" class="opções__link"> Favoritos </a></li>
+                    <li class="opções__item"> <a href="#" class="opções__link"> Meus cursos </a></li>
+                  </ul>
+                </div>
           <div class="container">
-            <a href="#" class="container_link">
+            <a href="#" class="container_link container__link--favoritos">
               <img src="favoritos(1).svg" alt="meus cursos" class="container_imagem">
-              <p class="container_texto"> Meus favoritos </p>
-            </a>
+              <p class="container_texto"> Meus favoritos </p> </a>
+
             <a href="#" class="container_link">
               <img src="Usuario 1.svg" alt="Meus cursos" class="container_imagem">
-              <p class="container_texto">Meus cursos </p>
-            </a>
+              <p class="container_texto">Meus cursos </p></a>
             <a href="#" class="container_link">
-              <img src="meus_cursos.svg" alt="Meus cursos" class="container_imagem">
-              <p class="container_texto">Perfi do Usuario </p>
-            </a>
-          </div>
-          
-          
-        
-        </ul> 
-         <!--cria uma caixa e nomeia como container-->
-        <div class="container">
-          <input type="checkbox" id="menu" class="container_botão">
-            <label for="menu" class="container_rotulo">
-                
-            </label>
-               <span class="cabeçalho_menu-hamburguer container_imagem">
-               </span>
-               <img src="Camada_x0020_1.svg" alt="logo da alurabooks">
-              </div>
-            
- 
-
-        <div class="container">
-          <a href="#"></a> <img src="favoritos(1).svg" alt="Meus favoritos">
-          <a href="#"></a> <img src="meus_cursos.svg" alt="Carrinho">
-          <a href="#"></a> <img src="Usuario 1.svg" alt="Perfil do Usuario">
-
-        </div>
-    
-        
-         
+              <img src="Usuario 1.svg" alt="Perfil do usuário" class="container__imagem">
+              <p class="container_texto"> Meu perfil </p></a>
         </div>
       </header>
-
-
-
-
 </body>
 </html>
